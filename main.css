@@ -1,0 +1,125 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+*{
+ 
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lexend Deca', sans-serif;
+
+}
+@media only screen and (max-width:600px){
+    .container{
+        flex-direction: column;
+    }
+
+    
+}
+.container{
+    margin: 50px;
+    display: flex;
+    height: 450px;
+    width: 70%;
+    margin-left: 15%;
+    
+
+   
+}
+.one button:hover{
+    background-color:hsl(31, 77%, 52%) ;
+    color: white;
+    border: 1px solid white;
+}
+
+.one {
+    position:relative;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    background-color:hsl(31, 77%, 52%);
+    padding: 2em;
+
+    
+}
+.one p{
+    color: hsla(0, 0%, 100%, 0.75);
+    margin-left:3% ;
+
+}
+
+.one h1{
+    margin-left: 7%;
+    margin-top: 10%; 
+    color: hsl(0, 0%, 95%);
+    
+}
+
+
+.one button{
+    padding: 10px;
+    border-radius: 30px;
+    background-color: hsl(0, 0%, 95%);
+    color:hsl(31, 77%, 52%) ;
+    border: none;
+    border-radius: 20px;
+    margin: 10%;
+}
+
+.two{
+    background-color:hsl(184, 100%, 22%);
+    color: white;
+    padding: 2em;
+}
+.two button:hover{
+    background-color:hsl(184, 100%, 22%) ;
+    color: white;
+    border: 1px solid white;
+}
+.two h1{
+    margin-left: 7%;
+    margin-top: 10%; 
+    color: hsl(0, 0%, 95%);
+}
+.two p{
+    margin-left:3% ;
+    color: hsla(0, 0%, 100%, 0.75);
+}
+.two button{
+    padding: 10px;
+    border-radius: 30px;
+    background-color: hsl(0, 0%, 95%);
+    color:rgb(18, 83, 136) ;
+    border: none;
+    border-radius: 20px;
+    margin: 10%;
+}
+.three{
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    color: white;
+    background-color: hsl(179, 100%, 13%);
+    padding: 2em;
+}
+.three button:hover{
+    background-color:hsl(179, 100%, 13%) ;
+    color: white;
+    border: 1px solid white;
+}
+.three p{
+    margin-left:3% ;
+    color: hsla(0, 0%, 100%, 0.75);
+
+}
+.three h1{
+    margin-left: 7%;
+    margin-top: 10%; 
+    color: hsl(0, 0%, 95%);
+    
+}
+.three button{
+    padding: 10px;
+    border-radius: 30px;
+    background-color: hsl(0, 0%, 95%);
+    color:rgb(11, 25, 51);
+    border: none;
+    border-radius: 20px;
+    margin: 10%;
+}
